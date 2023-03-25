@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/djengin.png">
+    <link rel="stylesheet" href="login2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="formbox">
+        <form action="" id="form16">
+            <h2>GİRİŞ YAP</h2>
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                </i><input type="email" name="nick" required>
+                <label for="">Email</label>
+            </div>
+
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" name="sifre" required>
+                <label for="">Şifreniz</label>
+
+            </div>
+
+            <div class="forget">
+                <input type="checkbox" name="hatirla"> Beni Hatırla
+                <a href="#">Şifremi Unuttum</a>
+            </div>
+
+            <button name="button" id="btn" onclick="document.getElementById('giris').innerHTML= 'Giriş Yapıldı!' ">Giriş Yap</button>
+
+            <div class="register">
+                <p>Eğer bir hesabın yoksa <a href="#">Kayıt ol</a></p>
+            </div>
+
+        </form>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
